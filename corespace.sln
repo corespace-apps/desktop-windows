@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corespace", "desktop-windows\Corespace.csproj", "{6600A3EA-E4C9-4363-86CE-C0183DAB313E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "desktop-windows-installer", "desktop-windows-installer\desktop-windows-installer.vdproj", "{84B5343D-E2B0-47B0-B3A4-AC69B36E42D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6600A3EA-E4C9-4363-86CE-C0183DAB313E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6600A3EA-E4C9-4363-86CE-C0183DAB313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6600A3EA-E4C9-4363-86CE-C0183DAB313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6600A3EA-E4C9-4363-86CE-C0183DAB313E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B5343D-E2B0-47B0-B3A4-AC69B36E42D5}.Debug|Any CPU.ActiveCfg = Debug
+		{84B5343D-E2B0-47B0-B3A4-AC69B36E42D5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380FE71C-3175-402A-A660-A33C96457B12}
+	EndGlobalSection
+EndGlobal
