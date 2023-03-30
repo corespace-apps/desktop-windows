@@ -6,11 +6,15 @@
     <RootNamespace>desktop_windows</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resource\Icons\close_icon.png" />
     <None Remove="Resource\Icons\fullscreen_icon.png" />
+    <None Remove="Resource\Icons\Logo-300x300.png" />
+    <None Remove="Resource\Icons\Logo.ico" />
+    <None Remove="Resource\Icons\Logo.png" />
     <None Remove="Resource\Icons\minimize_icon.png" />
   </ItemGroup>
 
@@ -19,6 +23,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resource\Icons\fullscreen_icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Icons\Logo-300x300.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Icons\Logo.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resource\Icons\Logo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resource\Icons\minimize_icon.png">
